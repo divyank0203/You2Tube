@@ -3,7 +3,9 @@ import React from 'react'
 function VideoCard(props: any) {
   return (
     <div className='pt-2'>
-        <div className='hover:cursor-pointer p-2'>
+        <div className='hover:cursor-pointer p-2' onClick={function(){
+            window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+        }}>
             <div className=' pb-2 grid grid-cols-12'>
                 <img className='rounded-xl col-span-12' src={props.thumbnail} alt="" />
             </div>

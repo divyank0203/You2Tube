@@ -3,7 +3,7 @@ import VideoCard from './VideoCard'
 
 
 const VIDEOS = [{
-    title:"Rayleigh is the real badass of the O.P. universe", 
+    title:"Dark King Silvers Rayleigh Powers and Abilities Unleashed - One Piece", 
     channel:"GrandLineReview",
     views:"2.5M",
     time:"3 Days",
@@ -11,7 +11,7 @@ const VIDEOS = [{
     thumbnail: "/thumb.png"
 },
 {
-    title:"Rayleigh is the real badass of the O.P. universe", 
+    title:"Dark King Silvers Rayleigh Powers and Abilities Unleashed - One Piece", 
     channel:"GrandLineReview",
     views:"2.5M",
     time:"3 Days",
@@ -19,7 +19,7 @@ const VIDEOS = [{
     thumbnail: "/thumb.png"
 },
 {
-    title:"Rayleigh is the real badass of the O.P. universe", 
+    title:"Dark King Silvers Rayleigh Powers and Abilities Unleashed - One Piece", 
     channel:"GrandLineReview",
     views:"2.5M",
     time:"3 Days",
@@ -27,7 +27,7 @@ const VIDEOS = [{
     thumbnail: "/thumb.png"
 },
 {
-        title:"Rayleigh is the real badass of the O.P. universe", 
+        title:"Dark King Silvers Rayleigh Powers and Abilities Unleashed - One Piece", 
     channel:"GrandLineReview",
     views:"2.5M",
     time:"3 Days",
@@ -35,7 +35,7 @@ const VIDEOS = [{
     thumbnail: "/thumb.png"
 },
 {
-            title:"Rayleigh is the real badass of the O.P. universe", 
+            title:"Dark King Silvers Rayleigh Powers and Abilities Unleashed - One Piece", 
     channel:"GrandLineReview",
     views:"2.5M",
     time:"3 Days",
@@ -43,7 +43,7 @@ const VIDEOS = [{
     thumbnail: "/thumb.png"
 },
 {
-    title:"Rayleigh is the real badass of the O.P. universe", 
+    title:"Dark King Silvers Rayleigh Powers and Abilities Unleashed - One Piece", 
     channel:"GrandLineReview",
     views:"2.5M",
     time:"3 Days",
@@ -51,7 +51,7 @@ const VIDEOS = [{
     thumbnail: "/thumb.png"
 },
 {
-    title:"Rayleigh is the real badass of the O.P. universe", 
+    title:"Dark King Silvers Rayleigh Powers and Abilities Unleashed - One Piece", 
     channel:"GrandLineReview",
     views:"2.5M",
     time:"3 Days",
@@ -59,7 +59,7 @@ const VIDEOS = [{
     thumbnail: "/thumb.png"
 },
 {
-    title:"Rayleigh is the real badass of the O.P. universe", 
+    title:"Dark King Silvers Rayleigh Powers and Abilities Unleashed - One Piece", 
     channel:"GrandLineReview",
     views:"2.5M",
     time:"3 Days",
@@ -67,7 +67,7 @@ const VIDEOS = [{
     thumbnail: "/thumb.png"
 },
 {
-        title:"Rayleigh is the real badass of the O.P. universe", 
+        title:"Dark King Silvers Rayleigh Powers and Abilities Unleashed - One Piece", 
     channel:"GrandLineReview",
     views:"2.5M",
     time:"3 Days",
@@ -75,7 +75,7 @@ const VIDEOS = [{
     thumbnail: "/thumb.png"
 },
 {
-            title:"Rayleigh is the real badass of the O.P. universe", 
+            title:"Dark King Silvers Rayleigh Powers and Abilities Unleashed - One Piece", 
     channel:"GrandLineReview",
     views:"2.5M",
     time:"3 Days",
