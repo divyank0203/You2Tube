@@ -3,21 +3,21 @@ import React from 'react'
 function VideoCard(props: any) {
   return (
     <div>
-        <div className='grid grid-rows-10'>
-            <div className=' w-120 pb-2'>
-                <img className='rounded-xl' src={props.thumbnail} alt="" />
+        <div className=''>
+            <div className=' pb-2 grid grid-cols-12'>
+                <img className='rounded-xl col-span-12' src={props.thumbnail} alt="" />
             </div>
             
-            <div className='grid grid-cols-12 w-120 h-min '>
-                <div className='col-span-1'>
+            <div className='grid grid-cols-12'>
+                <div className='col-span-2 pl-2 pb-2 pr-2'>
                     <img className='rounded-full w-10 h-10' src={props.avatar} alt="" />
                 </div>
-                <div className='col-span-10 pl-3'>
-                    <div className=' font-bold text-base'>
+                <div className='col-span-9 pl-1'>
+                    <div className=' font-bold'>
                         {props.title}
                     </div>
                     
-                    <div className='col-span-10 text-gray-600 text-sm'>
+                    <div className='col-span-9 text-gray-600 text-sm'>
                         {props.channel}
                         <br />
                         {props.views} Views | {props.time} Ago

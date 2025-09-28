@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Inter } from "next/font/google";
 import VideoCard from '@/components/VideoCard'
+import VideoGrid from "@/components/VideoGrid";
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
 //   subsets: ["latin"],
@@ -15,14 +16,7 @@ import VideoCard from '@/components/VideoCard'
 export default function Home() {
   return (
     <div>
-      <VideoCard 
-      title={"Rayleigh is the real badass of the O.P. universe"} 
-      channel={"GrandLineReview"}
-      views={"2.5M"}
-      time={"3 Days"}
-      avatar={"/glr.webp"}
-      thumbnail={"/thumb.png"}
-      />
+      <VideoGrid></VideoGrid>
     </div>
   );
 }
