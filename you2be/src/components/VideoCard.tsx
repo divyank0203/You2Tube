@@ -2,8 +2,8 @@ import React from 'react'
 
 function VideoCard(props: any) {
   return (
-    <div>
-        <div className=''>
+    <div className='pt-2'>
+        <div className='hover:cursor-pointer p-2'>
             <div className=' pb-2 grid grid-cols-12'>
                 <img className='rounded-xl col-span-12' src={props.thumbnail} alt="" />
             </div>
