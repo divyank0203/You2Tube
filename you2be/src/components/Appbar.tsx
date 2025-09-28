@@ -21,7 +21,7 @@ function Appbar() {
 </svg>
             </div>
             
-                <img src="/pro2.png" className='rounded-full size-8 inline-flex items-center m-3.5 hover:cursor-pointer' alt="" />
+                <img src="/pro2.png" className='rounded-full size-9 inline-flex items-center m-3 hover:cursor-pointer' alt="" />
 
             {/* <img src="/belll.png" alt="" />
             <img className='rounded-full' src="/pro2.png" alt="" /> */}
