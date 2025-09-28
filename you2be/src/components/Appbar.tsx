@@ -3,7 +3,7 @@ import Searchbar from './Searchbar'
 
 function Appbar() {
   return (
-    <div className='flex justify-between sticky top-0 z-50 bg-gray-950/90'>
+    <div className='flex justify-between sticky top-0 z-50 bg-neutral-950/90 backdrop-blur'>
         <div className='hover:cursor-pointer inline-flex items-center'>
             
             
