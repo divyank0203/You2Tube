@@ -2,7 +2,7 @@ import React from 'react'
 
 function Sidebar() {
   return (
-    <div className='  mr-3 p-3'>
+    <div className='fixed top-16 left-0 h-screen w-64 z-30 mr-3 p-3 hidden md:block'>
         <div className=''>
         <div className='mb-4 border-b border-gray-700'>
           <div className='flex hover:cursor-pointer hover:bg-gray-500/20 rounded-md mb-1.5 p-1.5'>

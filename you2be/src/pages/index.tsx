@@ -18,16 +18,21 @@ import Sidebar from "@/components/Sidebar";
 export default function Home() {
   return (
     <>
-    <div className="sticky top-0 z-50">
-      <Appbar></Appbar>
-    </div>
-    <div className="grid grid-cols-6">
-      <div className="col-span-1">
-        <Sidebar></Sidebar>
-      </div>
-      <div className="col-span-5">
-      <VideoGrid></VideoGrid>
-      </div>
+      {/* Sidebar is now fixed and lives on its own */}
+      <Sidebar />
+
+      {/* This div wraps all the content to the right of the sidebar */}
+      <div className="md:ml-64">
+        
+        {/* Your Appbar remains sticky at the top of this container */}
+        <div className="sticky top-0 z-50">
+          <Appbar />
+        </div>
+
+        {/* Your video grid will now scroll correctly within this container */}
+        <div className="pt-16">
+          <VideoGrid />
+        </div>
       
       
     </div>
