@@ -18,7 +18,7 @@ import Sidebar from "@/components/Sidebar";
 export default function Home() {
   return (
     <>
-    <div>
+    <div className="sticky top-0 z-50">
       <Appbar></Appbar>
     </div>
     <div className="grid grid-cols-6">
