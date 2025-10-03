@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import VideoCard from '@/components/VideoCard'
 import VideoGrid from "@/components/VideoGrid";
 import Appbar from "@/components/Appbar";
+import Sidebar from "@/components/Sidebar";
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
 //   subsets: ["latin"],
@@ -16,9 +17,20 @@ import Appbar from "@/components/Appbar";
 
 export default function Home() {
   return (
+    <>
     <div>
       <Appbar></Appbar>
-      <VideoGrid></VideoGrid>
     </div>
+    <div className="grid grid-cols-6">
+      <div className="col-span-1">
+        <Sidebar></Sidebar>
+      </div>
+      <div className="col-span-5">
+      <VideoGrid></VideoGrid>
+      </div>
+      
+      
+    </div>
+    </>
   );
 }

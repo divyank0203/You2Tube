@@ -1,5 +1,6 @@
 import React from 'react'
 import VideoCard from './VideoCard'
+import Appbar from './Appbar'
 
 
 const VIDEOS = [{
@@ -84,6 +85,8 @@ const VIDEOS = [{
 }]
 function VideoGrid() {
   return (
+    <div>
+    
     <div className='grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-3 '>
         {VIDEOS.map(video =>
             <div><VideoCard 
@@ -96,6 +99,7 @@ function VideoGrid() {
             />
             </div>
         )}
+    </div>
     </div>
   )
 }
